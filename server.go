@@ -1,8 +1,8 @@
 package main
 
 import (
-    "github.com/r-52/aurora/database"
 	"github.com/gofiber/fiber/v2"
+	"github.com/r-52/aurora/database"
 )
 
 func main() {
