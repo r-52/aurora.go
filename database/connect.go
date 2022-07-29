@@ -19,7 +19,7 @@ func ConnectDB() {
 		panic("failed to connect database")
 	}
 
-	DB.AutoMigrate(&models.Customer{})
+	DB.AutoMigrate(&models.Company{}, &models.CompanyAddress{}, &models.CompanyType{}, &models.Country{})
 }
 
 func GetDatabasePath() string {
