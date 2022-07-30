@@ -2,11 +2,13 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
+	"github.com/r-52/aurora/aurora_http"
 	"github.com/r-52/aurora/database"
 )
 
 func main() {
 	app := fiber.New()
+	aurora_http.CreateSession()
 
 	database.ConnectDB()
 

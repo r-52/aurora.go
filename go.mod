@@ -6,6 +6,7 @@ require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/gofiber/fiber/v2 v2.35.0 // indirect
 	github.com/gofiber/jwt/v3 v3.2.13 // indirect
+	github.com/gofiber/storage/sqlite3 v0.0.0-20220523092334-6d96fb56afb5
 	github.com/golang-jwt/jwt/v4 v4.4.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
